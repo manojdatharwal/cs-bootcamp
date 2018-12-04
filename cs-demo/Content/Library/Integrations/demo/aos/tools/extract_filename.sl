@@ -22,7 +22,7 @@ operation:
 
 
   python_action:
-    script: |
+    script:
       filename = url[url.rfind("/")+1:]
 
   outputs:
